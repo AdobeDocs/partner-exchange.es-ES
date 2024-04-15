@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Este artículo trata sobre lo siguiente:
 
-* Las diferencias entre una organización de zona protegida de socios de Adobe Exchange existente y la zona protegida de AEP compartida.
+* Las diferencias entre una organización de zona protegida de Adobe Exchange Partner existente y la zona protegida de AEP compartida.
 * Solicitud de acceso a la zona protegida compartida de AEP.
 * Recepción de una invitación por correo electrónico a la zona protegida compartida AEP.
 * Invitar a nuevos usuarios a la [!DNL Admin Console].
@@ -26,7 +26,7 @@ Para obtener una descripción general de la tecnología de espacio aislado en AE
 Los socios de Exchange tienen acceso a varios Adobes [!DNL Experience Cloud] productos (productos que no son de AEP como [!DNL Analytics], [!DNL Target], etiquetas de Platform, etc.) mediante su propio Adobe [!DNL Experience Cloud] Organización (no compartida). A los socios se les otorgan derechos de acceso de administrador del sistema a su propia organización para administrar usuarios y otros permisos. Adobe [!DNL Experience Platform] (AEP) se trata de forma diferente que otras zonas protegidas de Adobe. Estas son las diferencias clave:
 
 * El acceso a AEP NO se realiza a través del Adobe principal de los socios [!DNL Experience Cloud] organización de zona protegida.
-* El acceso a AEP se realiza a través de una organización de intercambio de Adobe compartido.
+* El acceso a AEP se realiza a través de una organización de Adobe Exchange compartido.
 * Muchas otras empresas asociadas de Adobe Exchange acceden a AEP con la misma organización
    * A través de la función de zona protegida de AEP, los datos y las actividades dentro de esta organización compartida no pueden ser vistos ni modificados por los otros socios; cada socio tendrá acceso a una zona protegida diferente dentro de la organización compartida.
 * Los derechos de administración dentro de esta organización compartida son muy limitados.
