@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Importar datos por lotes a AEP
 
-AEP puede introducir archivos por lotes que contengan datos de perfil de un archivo plano (como parquet) o datos que se ajusten a un esquema conocido en [!UICONTROL Modelo de datos de experiencia] (XDM).
+AEP puede introducir archivos por lotes que contengan datos de perfil de un archivo plano (como parquet) o datos que se ajusten a un esquema conocido en el registro [!UICONTROL Experience Data Model] (XDM).
 
 AEP puede introducir datos mediante archivos por lotes. Se aceptan los siguientes formatos: JSON, Parquet y CSV.
 
@@ -23,7 +23,7 @@ Este artículo trata sobre lo siguiente:
 * Cómo completar un lote
 * Comprobación del estado de un lote
 
-El [Colección Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) se hace referencia a en todo el artículo mediante las llamadas asociadas por número. Encontrará más información sobre la instalación y el uso de la colección Postman en Github [LÉAME](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) página. También hay conjuntos de datos de ejemplo de [fidelidad](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) y [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) datos.
+Se hace referencia a la [colección Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) en todo el artículo mediante las llamadas asociadas por número. Encontrará más información sobre cómo instalar y usar la colección Postman en la página de Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md). También hay conjuntos de datos de ejemplo de [lealtad](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) y datos de [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json).
 
 Para todas las llamadas de este tutorial, utilice las carpetas de llamadas de Postman: 4: Importación por lotes, 4a: Importación por lotes para datos de PERFIL O 4b: Importación por lotes para datos de EVENTO.
 
@@ -38,7 +38,7 @@ Para todas las llamadas de este tutorial, utilice las carpetas de llamadas de Po
 
 * Tamaño máximo del lote: 100 GB
 * Número máximo de archivos por lote: 1500
-* Si un archivo tiene más de 512 MB, deberá dividirse en fragmentos más pequeños. Puede encontrar más información en la [guía para desarrolladores](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
+* Si un archivo tiene más de 512 MB, deberá dividirse en fragmentos más pequeños. Encontrará más detalles en la [guía para desarrolladores](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
 * Número máximo de propiedades o campos por fila: 10 000
 * Número máximo de lotes por minuto, por usuario: 138
 
@@ -130,7 +130,7 @@ Respuesta:
 
 El estado del lote puede comprobarse en la interfaz de usuario o a través de la API (consulte la llamada a continuación). Para proteger la interfaz de usuario, vaya al DataSet para ver el estado.
 
-Se pueden encontrar los distintos estados de ingesta por lotes [aquí](https://adobe.ly/2TMMCmj).
+Los diversos estados de ingesta por lotes se pueden encontrar [aquí](https://adobe.ly/2TMMCmj).
 
 
 ```json
@@ -234,8 +234,8 @@ Respuesta:
 ## Artículos de referencia
 
 * [API de ingesta de datos](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
-* [Resumen de ingesta por lotes](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
+* [Información general sobre ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
 * [Guía para desarrolladores de ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
-* [Guía de resolución de problemas de ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
-* [Ingesta de datos Postman Collection](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
+* [Guía de solución de problemas de ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
+* [Recopilación de Postman de ingesta de datos](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
 * [Tutorial de autenticación](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)

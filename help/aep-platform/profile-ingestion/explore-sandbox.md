@@ -16,16 +16,16 @@ Este artículo trata sobre lo siguiente:
 * Las diferencias entre una organización de zona protegida de Adobe Exchange Partner existente y la zona protegida de AEP compartida.
 * Solicitud de acceso a la zona protegida compartida de AEP.
 * Recepción de una invitación por correo electrónico a la zona protegida compartida AEP.
-* Invitar a nuevos usuarios a la [!DNL Admin Console].
+* Invitando a nuevos usuarios en [!DNL Admin Console].
 * Navegación por la IU de AEP.
 
-Para obtener una descripción general de la tecnología de espacio aislado en AEP, consulte esto [artículo](https://docs.adobe.com/content/help/es-ES/experience-platform/sandbox/home.html).
+Para obtener una descripción general de la tecnología de espacio aislado en AEP, consulte este [artículo](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html).
 
 ## La zona protegida de AEP compartida
 
-Los socios de Exchange tienen acceso a varios Adobes [!DNL Experience Cloud] productos (productos que no son de AEP como [!DNL Analytics], [!DNL Target], etiquetas de Platform, etc.) mediante su propio Adobe [!DNL Experience Cloud] Organización (no compartida). A los socios se les otorgan derechos de acceso de administrador del sistema a su propia organización para administrar usuarios y otros permisos. Adobe [!DNL Experience Platform] (AEP) se trata de forma diferente que otras zonas protegidas de Adobe. Estas son las diferencias clave:
+Los socios de Exchange reciben acceso a varios productos de Adobe [!DNL Experience Cloud] (productos que no son de AEP como [!DNL Analytics], [!DNL Target], etiquetas de plataforma, etc.) a través de su propia organización de Adobe [!DNL Experience Cloud] (no compartida). A los socios se les otorgan derechos de acceso de administrador del sistema a su propia organización para administrar usuarios y otros permisos. El Adobe [!DNL Experience Platform] (AEP) se trata de forma diferente que otras zonas protegidas de Adobe. Estas son las diferencias clave:
 
-* El acceso a AEP NO se realiza a través del Adobe principal de los socios [!DNL Experience Cloud] organización de zona protegida.
+* El acceso a AEP NO se realizará a través de la organización de la zona protegida [!DNL Experience Cloud] del Adobe principal de los socios.
 * El acceso a AEP se realiza a través de una organización de Adobe Exchange compartido.
 * Muchas otras empresas asociadas de Adobe Exchange acceden a AEP con la misma organización
    * A través de la función de zona protegida de AEP, los datos y las actividades dentro de esta organización compartida no pueden ser vistos ni modificados por los otros socios; cada socio tendrá acceso a una zona protegida diferente dentro de la organización compartida.
@@ -34,9 +34,9 @@ Los socios de Exchange tienen acceso a varios Adobes [!DNL Experience Cloud] pro
 
 ## Solicitar acceso a la zona protegida compartida de AEP
 
-Enviar una [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-es/requests/new) con la siguiente información:
+Enviar [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-es/requests/new) con la siguiente información:
 
-* Dirección de correo electrónico
+* Correo electrónico
 * Asunto: Solicitud de zona protegida de AEP
 * Producto: Aprovisionamiento general / Sandbox
 * Tipo de vale: Soporte del programa - Programa de Exchange / Preguntas de solicitud de aprovisionamiento
@@ -45,13 +45,13 @@ Enviar una [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-e
 
 ## Recibir la invitación por correo electrónico
 
-El contacto principal que solicitó la zona protegida de AEP recibirá un correo electrónico automatizado invitándolos a &quot;comenzar&quot; con el Adobe [!DNL Experience Platform]. El contacto principal también tendrá algunos privilegios de administración que se tratan en la siguiente sección.
+El contacto principal que solicitó la zona protegida de AEP recibirá un correo electrónico automatizado que les invita a &quot;comenzar&quot; con el Adobe [!DNL Experience Platform]. El contacto principal también tendrá algunos privilegios de administración que se tratan en la siguiente sección.
 
-En lugar de seleccionar el botón &quot;empezar&quot; en el correo electrónico, vaya directamente a `https://platform.adobe.com.` Inicie sesión con el Adobe ID asociado a la dirección de correo electrónico de la invitación o cree una si no está asociada a un Adobe ID.
+En lugar de seleccionar el botón &quot;Comenzar&quot; en el correo electrónico, vaya directamente a `https://platform.adobe.com.` e inicie sesión con el Adobe ID asociado a la dirección de correo electrónico en la invitación, o cree uno si no está asociado a un Adobe ID.
 
 ## Invitar a usuarios adicionales
 
-Enviar una [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-es/requests/new) con la siguiente información:
+Enviar [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-es/requests/new) con la siguiente información:
 
 * Dirección de correo electrónico del solicitante
 * Asunto: Zona protegida de AEP: Añadir administrador/usuario
@@ -61,7 +61,7 @@ Enviar una [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-e
 
 ## Navegación por la IU de AEP
 
-Vea la IU de AEP [vídeo de introducción](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+Vea el [vídeo de introducción](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html) de la IU de AEP
 
 Hay 12 áreas principales dentro de la interfaz de usuario de AEP que se pueden navegar mediante el panel izquierdo. Sin embargo, las secciones más importantes para este tipo de integración son Esquemas, Conjuntos de datos y Perfiles.
 

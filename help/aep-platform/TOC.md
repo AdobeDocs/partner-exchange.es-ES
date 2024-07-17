@@ -16,7 +16,7 @@ ht-degree: 0%
 # Adobe Exchange - Guías de integración {#integration-guides}
 
 + [Requisito previo de integración de AEP: Acceso y exploración de la zona protegida de AEP](profile-ingestion/explore-sandbox.md)
-+ Ingesta de datos y acceso a perfiles {#profile-ingestion}
++ Ingesta de datos y acceso al perfil {#profile-ingestion}
    + [Información general sobre la guía de integración](profile-ingestion/profile-integration-overview.md)
    + [Creación de esquemas y conjuntos de datos](profile-ingestion/schema-and-dataset.md)
    + [Importar datos por lotes](profile-ingestion/batch-import.md)

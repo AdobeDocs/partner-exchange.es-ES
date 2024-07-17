@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # Acceso al perfil unificado mediante la API de perfil
 
-El Adobe [!DNL Experience Platform] puede acceder al perfil del cliente en tiempo real; la variable [[!DNL Experience Platform] API de perfil del cliente en tiempo real](https://adobe.ly/2TtDHWr) se ha diseñado para interactuar con eso. Ver esto [tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) para obtener información sobre cómo acceder a los datos de perfil del cliente en tiempo real mediante la API de perfil.
+El Adobe [!DNL Experience Platform] puede acceder al perfil del cliente en tiempo real; la [[!DNL Experience Platform] API del perfil del cliente en tiempo real](https://adobe.ly/2TtDHWr) se ha diseñado para interactuar con él. Consulte este [tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) para obtener acceso a los datos de perfil del cliente en tiempo real mediante la API de perfil.
 
 Este artículo hará referencia sustancial al tutorial vinculado anteriormente.
 
-El [Colección Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) se hace referencia a en todo el artículo mediante las llamadas asociadas por número. Encontrará más información sobre la instalación y el uso de la colección Postman en Github [LÉAME](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) página. También hay conjuntos de datos de ejemplo de [fidelidad](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) y [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) datos.
+Se hace referencia a la [colección Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) en todo el artículo mediante las llamadas asociadas por número. Encontrará más información sobre cómo instalar y usar la colección Postman en la página de Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md). También hay conjuntos de datos de ejemplo de [lealtad](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) y datos de [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json).
 
 Para esta sección, utilice la carpeta Postman 5: Búsqueda de perfiles, 5a: Búsqueda en tiempo real de datos de PERFIL O 5b: Búsqueda en tiempo real de datos de EVENTO.
 
@@ -25,15 +25,15 @@ Las siguientes secciones le ayudan a autenticarse en Experience Platform. Obteng
 
 ### Autenticar en [!DNL Platform]
 
-Consulte [esta](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) tutorial de autenticación antes de realizar cualquiera de las llamadas siguientes.
+Ver [este](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) tutorial de autenticación antes de realizar cualquiera de las llamadas siguientes.
 
 ### Ruta de API
 
 La URL de puerta de enlace de plataforma necesaria para la API del perfil del cliente en tiempo real es: `https://platform.adobe.io/`
 
-La ruta base para la API es: `/data/core/ups/access/entities`
+La ruta de acceso base para la API es: `/data/core/ups/access/entities`
 
-Un ejemplo de ruta completa es: `https://platform.adobe.io/data/core/ups/access/entities`
+Un ejemplo de ruta de acceso completa es: `https://platform.adobe.io/data/core/ups/access/entities`
 
 ### Información de encabezado
 
@@ -45,11 +45,11 @@ El encabezado debe incluir:
 * x-sandbox-name: obtenido de Adobe Integration Manager
 * Content-Type: application/json
 
-Encontrará más información acerca del encabezado en la [tutorial](https://adobe.ly/2PTHuKv).
+Encontrará más información sobre el encabezado en el [tutorial](https://adobe.ly/2PTHuKv).
 
 ## Acceso a perfiles de clientes en tiempo real mediante identidades
 
-La API de perfil permite acceder a perfiles mediante una solicitud de GET. Las secciones a continuación seguirán esto [guía](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
+La API de perfil permite acceder a perfiles mediante una solicitud de GET. Las secciones a continuación seguirán esta [guía](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
 
 ### Acceso a datos de perfil mediante identidad
 
@@ -141,7 +141,8 @@ Respuesta:
 
 La API proporciona acceso a perfiles mediante una lista de identidades mediante una solicitud de POST al extremo /access/entities y proporciona las identidades en la carga útil. Estas identidades consisten en un valor de ID (entityId) y un área de nombres de identidad (entityIdNS).
 
-Solicitud: la siguiente solicitud recupera los nombres y direcciones de correo electrónico de varios clientes mediante una lista de identidades:
+Solicitud:
+La siguiente solicitud recupera los nombres y direcciones de correo electrónico de varios clientes mediante una lista de identidades:
 
 ```
 curl -X POST \
@@ -179,7 +180,8 @@ curl -X POST \
 }'
 ```
 
-Respuesta: Una respuesta correcta devuelve los campos solicitados de las entidades especificadas en el cuerpo de la solicitud.
+Respuesta:
+Una respuesta correcta devuelve los campos solicitados de las entidades especificadas en el cuerpo de la solicitud.
 
 ```
 {
@@ -326,7 +328,8 @@ Los socios pueden acceder a los eventos de series temporales según la identidad
 
 La identidad de su entidad de perfil asociada accede a los eventos de serie temporal realizando una solicitud de GET al extremo /access/entities. Esta identidad consta de un valor de ID (entityId) y un área de nombres de identidad (entityIdNS).
 
-Solicitud: La siguiente solicitud encuentra una entidad de perfil por ID y recupera los valores de las propiedades endUserIDs, web y channel **para todos** eventos de series temporales asociados a la entidad.
+Solicitud:
+La siguiente solicitud encuentra una entidad de perfil por ID y recupera los valores de las propiedades endUserIDs, web y channel **para todos los** eventos de series temporales asociados a la entidad.
 
 ```
 curl -X GET \
@@ -459,6 +462,6 @@ Una respuesta correcta devuelve la siguiente página de resultados. En este ejem
 
 ## Artículos de referencia
 
-* [API de perfil del cliente en tiempo real](https://adobe.ly/2TtDHWr)
-* [Acceso a los datos de perfil del cliente en tiempo real mediante el tutorial de API de perfil](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [API de perfil de cliente en tiempo real](https://adobe.ly/2TtDHWr)
+* [Acceder a los datos de perfil del cliente en tiempo real mediante el tutorial de la API del perfil](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
 * [[!DNL Experience Platform] Guía de autenticación](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)

@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # Transmitir datos a AEP
 
-Adobe [!DNL Experience Platform] permite que los eventos de perfil y experiencia se transmitan y estén disponibles en tiempo casi real. Todos los datos enviados a AEP mediante streaming se conservan en el lago de datos. Los datos se pueden transmitir a conjuntos de datos existentes o a conjuntos de datos completamente nuevos mediante API o mediante Adobe Launch.
+El Adobe [!DNL Experience Platform] permite que los eventos de perfil y experiencia se transmitan y estén disponibles en tiempo casi real. Todos los datos enviados a AEP mediante streaming se conservan en el lago de datos. Los datos se pueden transmitir a conjuntos de datos existentes o a conjuntos de datos completamente nuevos mediante API o mediante Adobe Launch.
 
 Este artículo trata sobre lo siguiente:
 
@@ -19,7 +19,7 @@ Este artículo trata sobre lo siguiente:
 * Transmisión a ExperienceEvent de XDM
 * Uso de AEP con la extensión Launch para el flujo
 
-El [Colección Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) se hace referencia a en todo el artículo mediante las llamadas asociadas por número. Encontrará más información sobre la instalación y el uso de la colección Postman en Github [LÉAME](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) página. También hay conjuntos de datos de ejemplo de [fidelidad](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) y [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) datos.
+Se hace referencia a la [colección Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) en todo el artículo mediante las llamadas asociadas por número. Encontrará más información sobre cómo instalar y usar la colección Postman en la página de Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md). También hay conjuntos de datos de ejemplo de [lealtad](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) y datos de [perfil](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json).
 
 ## Requisitos previos
 
@@ -28,9 +28,9 @@ El [Colección Postman](https://github.com/Adobe-Marketing-Cloud/exchange-aep-pr
 
 ## Creación de una conexión de flujo continuo
 
-Para transmitir a AEP, primero debe crear una conexión de flujo continuo. Las conexiones de flujo continuo contienen atributos como el origen de los datos de flujo continuo y si está enviando o no registros que pertenecen a la variable [!DNL Experience Data Model] Esquemas de (XDM). Después de crear una conexión de flujo continuo, se le proporcionará una dirección URL única que utilizará para transmitir datos a AEP.
+Para transmitir a AEP, primero debe crear una conexión de flujo continuo. Las conexiones de streaming contienen atributos como el origen de los datos de streaming y si está enviando o no registros que pertenecen a los esquemas [!DNL Experience Data Model] (XDM). Después de crear una conexión de flujo continuo, se le proporcionará una dirección URL única que utilizará para transmitir datos a AEP.
 
-Ir [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de API o [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de la interfaz de usuario.
+Vaya [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de la API o [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de la interfaz de usuario.
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -73,7 +73,7 @@ Asegúrese de guardar el ID proporcionado en la respuesta anterior para futuras 
 
 Para esta sección, utilice las carpetas de llamadas de Postman: 3: Importación en tiempo real, 3a: Importación en tiempo real para datos de PERFIL.
 
-Se documentan solicitudes JSON detalladas con respuestas para datos de perfil de streaming [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html).
+Las solicitudes JSON detalladas con respuestas para datos de perfil de streaming se documentan [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html).
 
 Pasos:
 
@@ -87,7 +87,7 @@ Pasos:
 
 Para esta sección, utilice las carpetas de llamadas de Postman: 3: Importación en tiempo real, 3b: Importación en tiempo real para datos de PERFIL.
 
-Se documentan solicitudes JSON detalladas con respuestas para datos de experiencia de streaming [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
+Las solicitudes JSON detalladas con respuestas para datos de experiencia de streaming se documentan [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
 
 Pasos:
 
@@ -99,11 +99,11 @@ Pasos:
 
 ## Usar etiquetas de Experience Platform para transmitir a AEP
 
-El Adobe [!DNL Experience Platform] La extensión de Launch proporciona una forma de transmitir a AEP a través de Launch. Para obtener más información, consulte [esta guía](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html).
+La extensión de Launch de Adobe [!DNL Experience Platform] proporciona una forma de transmitir a AEP a través de Launch. Para obtener más información, consulte [esta guía](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html).
 
 ## Artículos de referencia
 
 * [API de ingesta de datos](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
-* [Resumen de ingesta de streaming](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/home.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
-* [Guía para desarrolladores de ingesta de streaming](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
+* [Resumen de ingesta de transmisión](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/streaming_ingest_overview.md)
+* [Guía para desarrolladores de ingesta de transmisión](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/streaming_ingest/getting_started_with_platform_streaming_ingestion.md)
 * [Uso de la extensión Launch de AEP](https://docs.adobe.com/content/help/es-ES/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)
