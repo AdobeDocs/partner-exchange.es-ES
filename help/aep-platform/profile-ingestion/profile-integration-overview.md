@@ -27,7 +27,7 @@ La próxima vez que un cliente llame al centro de llamadas, primero recibirá un
 
 ## Recursos generales
 
-* [Documentación del producto](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html) de AEP.
+* [Documentación del producto](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/documentation/overview.html) de AEP.
 * AEP [Extensibilidad](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
 
 ## ¿Preguntas o comentarios?

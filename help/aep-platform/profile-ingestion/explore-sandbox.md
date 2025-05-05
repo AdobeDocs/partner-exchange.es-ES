@@ -19,7 +19,7 @@ Este artículo trata sobre lo siguiente:
 * Invitando a nuevos usuarios en [!DNL Admin Console].
 * Navegación por la IU de AEP.
 
-Para obtener una descripción general de la tecnología de espacio aislado en AEP, consulte este [artículo](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html).
+Para obtener una descripción general de la tecnología de espacio aislado en AEP, consulte este [artículo](https://docs.adobe.com/content/help/es-ES/experience-platform/sandbox/home.html).
 
 ## La zona protegida de AEP compartida
 
@@ -61,7 +61,7 @@ Enviar [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-es/re
 
 ## Navegación por la IU de AEP
 
-Vea el [vídeo de introducción](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html) de la IU de AEP
+Vea el [vídeo de introducción](https://docs.adobe.com/content/help/es-ES/platform-learn/tutorials/intro-to-platform/interface-tour.html) de la IU de AEP
 
 Hay 12 áreas principales dentro de la interfaz de usuario de AEP que se pueden navegar mediante el panel izquierdo. Sin embargo, las secciones más importantes para este tipo de integración son Esquemas, Conjuntos de datos y Perfiles.
 
