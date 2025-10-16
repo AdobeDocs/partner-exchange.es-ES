@@ -393,7 +393,7 @@ Una respuesta correcta devuelve una lista paginada de eventos de series temporal
 
 ### Paginación de eventos de series temporales para un perfil
 
-Los resultados se paginan al recuperar eventos de series temporales. Si hay páginas de resultados subsiguientes, el parámetro &amp;lowbar;page.next de la respuesta contendrá un ID. Además, el parámetro &amp;lowbar;links.next.href de la respuesta proporciona un URI de solicitud para recuperar la página siguiente.
+Los resultados se paginan al recuperar eventos de series temporales. Si hay páginas de resultados subsiguientes, el parámetro &lowbar;page.next de la respuesta contendrá un ID. Además, el parámetro &lowbar;links.next.href de la respuesta proporciona un URI de solicitud para recuperar la página siguiente.
 
 Solicitud:
 
@@ -411,7 +411,7 @@ curl -X GET \
 
 Respuesta:
 
-Una respuesta correcta devuelve la siguiente página de resultados. En este ejemplo se muestra una respuesta en la que no hay páginas de resultados subsiguientes, como indican los valores de cadena vacíos de &amp;lowbar;page.next y &amp;lowbar;links.next.href.
+Una respuesta correcta devuelve la siguiente página de resultados. En este ejemplo se muestra una respuesta en la que no hay páginas de resultados subsiguientes, como indican los valores de cadena vacíos de &lowbar;page.next y &lowbar;links.next.href.
 
 ```
 {
