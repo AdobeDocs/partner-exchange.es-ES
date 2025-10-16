@@ -2,16 +2,16 @@
 title: Acceso al perfil unificado
 description: Utilice las API para acceder al perfil unificado.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
 # Acceso al perfil unificado mediante la API de perfil
 
-El Adobe [!DNL Experience Platform] puede acceder al perfil del cliente en tiempo real; la [[!DNL Experience Platform] API del perfil del cliente en tiempo real](https://adobe.ly/2TtDHWr) se ha diseñado para interactuar con él. Consulte este [tutorial](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/api/getting-started.html) para obtener acceso a los datos de perfil del cliente en tiempo real mediante la API de perfil.
+Adobe [!DNL Experience Platform] puede acceder al perfil del cliente en tiempo real; la [[!DNL Experience Platform] API del perfil del cliente en tiempo real](https://adobe.ly/2TtDHWr) se ha diseñado para interactuar con eso. Consulte este [tutorial](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) para obtener acceso a los datos de perfil del cliente en tiempo real mediante la API de perfil.
 
 Este artículo hará referencia sustancial al tutorial vinculado anteriormente.
 
@@ -25,7 +25,7 @@ Las siguientes secciones le ayudan a autenticarse en Experience Platform. Obteng
 
 ### Autenticar en [!DNL Platform]
 
-Ver [este](https://docs.adobe.com/content/help/es-ES/experience-platform/tutorials/authentication.html) tutorial de autenticación antes de realizar cualquiera de las llamadas siguientes.
+Ver [este](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) tutorial de autenticación antes de realizar cualquiera de las llamadas siguientes.
 
 ### Ruta de API
 
@@ -49,11 +49,11 @@ Encontrará más información sobre el encabezado en el [tutorial](https://adobe
 
 ## Acceso a perfiles de clientes en tiempo real mediante identidades
 
-La API de perfil permite acceder a perfiles mediante una solicitud de GET. Las secciones a continuación seguirán esta [guía](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/api/entities.html).
+La API de perfil permite acceder a perfiles mediante una solicitud de GET. Las secciones a continuación seguirán esta [guía](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
 
 ### Acceso a datos de perfil mediante identidad
 
-La API de proporciona acceso a la información de perfil mediante el uso de identidad. Para ello, realice una solicitud de GET a /access/entities con el ID de entidad como uno de los parámetros y el área de nombres del ID de entidad. NOTA: Tenga en cuenta que cualquier solicitud que devuelva 50 registros solo enviará un estado HTTP 422 y un mensaje que indique &quot;demasiadas identidades relacionadas&quot;, y la búsqueda deberá restringirse con más parámetros.
+La API de proporciona acceso a la información de perfil mediante el uso de identidad. Para ello, realice una petición GET a /access/entities con el ID de entidad como uno de los parámetros y el área de nombres del ID de entidad. NOTA: Tenga en cuenta que cualquier solicitud que devuelva 50 registros solo enviará un estado HTTP 422 y un mensaje que indique &quot;demasiadas identidades relacionadas&quot;, y la búsqueda deberá restringirse con más parámetros.
 
 Solicitud:
 
@@ -139,7 +139,7 @@ Respuesta:
 
 ### Acceso a perfiles por lista de identidades
 
-La API proporciona acceso a perfiles mediante una lista de identidades mediante una solicitud de POST al extremo /access/entities y proporciona las identidades en la carga útil. Estas identidades consisten en un valor de ID (entityId) y un área de nombres de identidad (entityIdNS).
+La API proporciona acceso a perfiles mediante una lista de identidades mediante una petición POST al extremo /access/entities y proporciona las identidades en la carga útil. Estas identidades consisten en un valor de ID (entityId) y un área de nombres de identidad (entityIdNS).
 
 Solicitud:
 La siguiente solicitud recupera los nombres y direcciones de correo electrónico de varios clientes mediante una lista de identidades:
@@ -322,11 +322,11 @@ Una respuesta correcta devuelve los campos solicitados de las entidades especifi
 
 ## Eventos de series temporales
 
-Los socios pueden acceder a los eventos de series temporales según la identidad de la entidad de perfil asociada realizando una solicitud de GET al extremo /access/entities.
+Los socios pueden acceder a los eventos de series temporales según la identidad de la entidad de perfil asociada realizando una petición GET al extremo /access/entities.
 
 ### Acceso a eventos de series temporales para un perfil por identidad
 
-La identidad de su entidad de perfil asociada accede a los eventos de serie temporal realizando una solicitud de GET al extremo /access/entities. Esta identidad consta de un valor de ID (entityId) y un área de nombres de identidad (entityIdNS).
+La identidad de su entidad de perfil asociada accede a los eventos de serie temporal realizando una petición GET al extremo /access/entities. Esta identidad consta de un valor de ID (entityId) y un área de nombres de identidad (entityIdNS).
 
 Solicitud:
 La siguiente solicitud encuentra una entidad de perfil por ID y recupera los valores de las propiedades endUserIDs, web y channel **para todos los** eventos de series temporales asociados a la entidad.
@@ -393,7 +393,7 @@ Una respuesta correcta devuelve una lista paginada de eventos de series temporal
 
 ### Paginación de eventos de series temporales para un perfil
 
-Los resultados se paginan al recuperar eventos de series temporales. Si hay páginas de resultados subsiguientes, el parámetro _page.next de la respuesta contendrá un ID. Además, el parámetro _links.next.href de la respuesta proporciona un URI de solicitud para recuperar la página siguiente.
+Los resultados se paginan al recuperar eventos de series temporales. Si hay páginas de resultados subsiguientes, el parámetro &amp;lowbar;page.next de la respuesta contendrá un ID. Además, el parámetro &amp;lowbar;links.next.href de la respuesta proporciona un URI de solicitud para recuperar la página siguiente.
 
 Solicitud:
 
@@ -411,7 +411,7 @@ curl -X GET \
 
 Respuesta:
 
-Una respuesta correcta devuelve la siguiente página de resultados. En este ejemplo se muestra una respuesta en la que no hay páginas de resultados subsiguientes, como indican los valores de cadena vacíos de _page.next y _links.next.href.
+Una respuesta correcta devuelve la siguiente página de resultados. En este ejemplo se muestra una respuesta en la que no hay páginas de resultados subsiguientes, como indican los valores de cadena vacíos de &amp;lowbar;page.next y &amp;lowbar;links.next.href.
 
 ```
 {
@@ -463,5 +463,5 @@ Una respuesta correcta devuelve la siguiente página de resultados. En este ejem
 ## Artículos de referencia
 
 * [API de perfil de cliente en tiempo real](https://adobe.ly/2TtDHWr)
-* [Acceder a los datos de perfil del cliente en tiempo real mediante el tutorial de la API del perfil](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] Guía de autenticación](https://docs.adobe.com/content/help/es-ES/experience-platform/tutorials/authentication.html)
+* [Acceder a los datos de perfil del cliente en tiempo real mediante el tutorial de la API del perfil](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform] Guía de autenticación](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
