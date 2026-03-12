@@ -4,24 +4,24 @@ solution: Experience Cloud
 type: Documentation
 git-repo: https://github.com/AdobeDocs/partner-exchange.es-ES
 index: false
-source-git-commit: 349c1ab04220be712709ddd14fd46bf9efc8fa9e
+source-git-commit: 1285dba53d3ae0c43c8993728c5f8bc5af7546e2
 workflow-type: tm+mt
-source-wordcount: '109'
-ht-degree: 99%
+source-wordcount: '125'
+ht-degree: 0%
 
 ---
 
 
 # Metadatos para uso interno
 
-El archivo metadata.md incluye metadatos de nivel de repositorio que pasan a la guía del usuario de los archivos TOC.md en el repositorio. Si desea cambiar el contenido de metadata.md para cualquier guía del usuario, hágalo en cualquier archivo de TOC.md.
+El archivo Metadata.md incluye metadatos de nivel de repo que pasan a los archivos de guía de usuario TOC.md de la repo. Si desea cambiar el contenido metadato.md de cualquier guía de usuario, hágalo en cualquier archivo TOC.md.
 
-| metadatos | qué hace |
+| metadatos | lo que hace |
 |--- |--- |
-| solution-title | Se utiliza como vínculo en el encabezado del artículo |
-| solution-hub-url | Abrir la página helpx hub |
-| solution-icon | Muestra el icono de la solución junto al título de la solución. Aún no se ha implementado |
-| getting-started-url | Vínculo a la página de inicio de helpx |
-| tutorials-url | Vínculo a tutoriales de vídeo: tutoriales de helpx o tutoriales KT |
-| mini-toc-levels | Determina el número de niveles de encabezados que aparecen en el carril derecho. el valor predeterminado es 2 |
-| git-repo | Especifica la ubicación del repositorio principal para uso interno |
+| título de solución | Se utiliza en el encabezado de artículo como vínculo |
+| concentrador de soluciones-url | Abre la página del concentrador de ayuda |
+| icono de solución | Muestra el icono de solución junto al título de la solución. No implementado aún |
+| dirección URL de inicio | Vínculo a la página de ayuda para iniciar |
+| tutoriales-url | Enlazar a tutoriales de vídeo: tutoriales de ayuda o tutoriales de KT |
+| niveles de minitoc | Determina el número de niveles de encabezado que aparecen en el carril derecho. predeterminado es 2 |
+| git-repo | Especifica la ubicación de la repo principal para uso interno |
