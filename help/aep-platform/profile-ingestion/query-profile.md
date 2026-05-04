@@ -2,9 +2,14 @@
 title: Acceso al perfil unificado
 description: Utilice las API para acceder al perfil unificado.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 797
 ht-degree: 0%
 
 ---
@@ -19,7 +24,7 @@ Se hace referencia a la [colección Postman](https://github.com/Adobe-Marketing-
 
 Para esta sección, utilice la carpeta Postman 5: Búsqueda de perfiles, 5a: Búsqueda en tiempo real de datos de PERFIL O 5b: Búsqueda en tiempo real de datos de EVENTO.
 
-## Uso de la API
+## Utilización de la API
 
 Las siguientes secciones le ayudan a autenticarse en Experience Platform. Obtenga información sobre la ruta de la API, la información del encabezado y mucho más.
 
@@ -462,6 +467,6 @@ Una respuesta correcta devuelve la siguiente página de resultados. En este ejem
 
 ## Artículos de referencia
 
-* [API de perfil de cliente en tiempo real](https://adobe.ly/2TtDHWr)
-* [Acceder a los datos de perfil del cliente en tiempo real mediante el tutorial de la API del perfil](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] Guía de autenticación](https://docs.adobe.com/content/help/es-ES/experience-platform/tutorials/authentication.html)
+* [API de perfil del cliente en tiempo real](https://adobe.ly/2TtDHWr)
+* [Acceso a los datos de perfil del cliente en tiempo real mediante el tutorial de API de perfil](https://docs.adobe.com/content/help/es-ES/experience-platform/profile/api/getting-started.html)
+* [Guía de autenticación de [!DNL Experience Platform]](https://docs.adobe.com/content/help/es-ES/experience-platform/tutorials/authentication.html)
