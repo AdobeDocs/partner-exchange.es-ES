@@ -26,14 +26,14 @@ Se hace referencia a la [colección Postman](https://github.com/Adobe-Marketing-
 
 ## Requisitos previos
 
-* [Autenticar en la plataforma](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).
+* [Autenticar en la plataforma](https://docs.adobe.com/content/help/es-ES/experience-platform/tutorials/authentication.html).
 * Recopile los valores de los encabezados necesarios del tutorial de autenticación vinculado anteriormente.
 
 ## Creación de una conexión de flujo continuo
 
 Para transmitir a AEP, primero debe crear una conexión de flujo continuo. Las conexiones de streaming contienen atributos como el origen de los datos de streaming y si está enviando o no registros que pertenecen a los esquemas [!DNL Experience Data Model] (XDM). Después de crear una conexión de flujo continuo, se le proporcionará una dirección URL única que utilizará para transmitir datos a AEP.
 
-Vaya [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de la API o [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de la interfaz de usuario.
+Vaya [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/tutorials/create-streaming-connection.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de la API o [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html) para obtener instrucciones sobre cómo crear una conexión de flujo continuo a través de la interfaz de usuario.
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -76,7 +76,7 @@ Asegúrese de guardar el ID proporcionado en la respuesta anterior para futuras 
 
 Para esta sección, utilice las carpetas de llamadas de Postman: 3: Importación en tiempo real, 3a: Importación en tiempo real para datos de PERFIL.
 
-Las solicitudes JSON detalladas con respuestas para datos de perfil de streaming se documentan [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html).
+Las solicitudes JSON detalladas con respuestas para datos de perfil de streaming se documentan [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/tutorials/streaming-record-data.html).
 
 Pasos:
 
@@ -90,7 +90,7 @@ Pasos:
 
 Para esta sección, utilice las carpetas de llamadas de Postman: 3: Importación en tiempo real, 3b: Importación en tiempo real para datos de PERFIL.
 
-Las solicitudes JSON detalladas con respuestas para datos de experiencia de streaming se documentan [aquí](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
+Las solicitudes JSON detalladas con respuestas para datos de experiencia de streaming se documentan [aquí](https://docs.adobe.com/content/help/es-ES/experience-platform/ingestion/tutorials/streaming-time-series-data.html).
 
 Pasos:
 
