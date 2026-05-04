@@ -2,9 +2,12 @@
 title: Importar datos por lotes a AEP
 description: Obtenga información sobre cómo importar archivos por lotes en Experience Platform
 exl-id: 50576b67-b3ba-498e-86f6-7e1986b76985
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/sJjuydUOIwlu4gv6qmokidQJVrYLN4--M8m3DTkcjf0
+product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2: id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 646
 ht-degree: 0%
 
 ---
@@ -44,7 +47,7 @@ Para todas las llamadas de este tutorial, utilice las carpetas de llamadas de Po
 
 ## Crear un lote
 
-En este tutorial utilizaremos JSON como formato. Encontrará más ejemplos de formato en la [guía para desarrolladores](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
+En este tutorial utilizaremos JSON como formato. Encontrará más ejemplos de formato en la guía para desarrolladores de [](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
 Cree un lote utilizando JSON como formato de entrada (asegúrese de incluir un ID de conjunto de datos y de que los datos se ajusten al esquema XDM vinculado al conjunto de datos):
 
 ```json
@@ -234,8 +237,8 @@ Respuesta:
 ## Artículos de referencia
 
 * [API de ingesta de datos](https://www.adobe.io/apis/experienceplatform/home/api-reference.html#/acpdr/swagger-specs)
-* [Información general sobre ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
+* [Resumen de ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
 * [Guía para desarrolladores de ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
-* [Guía de solución de problemas de ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
-* [Recopilación de Postman de ingesta de datos](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
+* [Guía de resolución de problemas de ingesta por lotes](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
+* [Ingesta de datos Postman Collection](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
 * [Tutorial de autenticación](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)
