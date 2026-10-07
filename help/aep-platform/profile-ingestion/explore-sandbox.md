@@ -5,22 +5,27 @@ exl-id: 62c21615-4b03-4900-a1ad-8f809c836491
 TQID: https://experienceleague.adobe.com/A5sl-xNZBPjIKn6HO1iwM78IaQWQs4yBgbw9wwpMrGw
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 feature_v2:
   - id: fdbb8fc9-ffa3-4b86-88fe-aa4c5a3e1bc6
+    internal-label: Administration
 subfeature_v2:
   - id: b75843fa-0a67-4a44-a6b1-cc627b0481dc
+    internal-label: Support
   - id: fef08361-6ac5-460c-93fe-d063e40b6a49
+    internal-label: Getting started
 topic_v2:
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
+    internal-label: Insights
   - id: eddd9b14-83bd-4ff4-9072-54a4a484abb7
+    internal-label: Administration
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Customer profiles
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 772
+source-wordcount: '772'
 ht-degree: 1%
-
 ---
-
 # Acceso y exploración de la zona protegida de AEP
 
 Este artículo trata sobre lo siguiente:
@@ -31,7 +36,7 @@ Este artículo trata sobre lo siguiente:
 * Invitando a nuevos usuarios en [!DNL Admin Console].
 * Navegación por la IU de AEP.
 
-Para obtener una descripción general de la tecnología de espacio aislado en AEP, consulte este [artículo](https://docs.adobe.com/content/help/es-ES/experience-platform/sandbox/home.html).
+Para obtener una descripción general de la tecnología de espacio aislado en AEP, consulte este [artículo](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html).
 
 ## La zona protegida compartida de AEP
 
@@ -40,7 +45,7 @@ Los socios de Exchange reciben acceso a varios productos de Adobe [!DNL Experien
 * El acceso a AEP NO se realizará a través de la organización de la zona protegida [!DNL Experience Cloud] de Adobe principal de los socios.
 * El acceso a AEP se realiza mediante una organización compartida de Adobe Exchange.
 * Muchas otras empresas asociadas a Adobe Exchange acceden a AEP con la misma organización
-   * A través de la función de zona protegida de AEP, los datos y las actividades dentro de esta organización compartida no se pueden ver ni modificar por parte de los otros socios; cada socio tendrá acceso a una zona protegida diferente dentro de la organización compartida.
+  * A través de la función de zona protegida de AEP, los datos y las actividades dentro de esta organización compartida no se pueden ver ni modificar por parte de los otros socios; cada socio tendrá acceso a una zona protegida diferente dentro de la organización compartida.
 * Los derechos de administración dentro de esta organización compartida son muy limitados.
 * Después de obtener acceso a una zona protegida en AEP, los socios verán dos organizaciones en el conmutador de organizaciones en la parte superior derecha de la interfaz de usuario, mientras se encuentran en la página de inicio de Admin Console o de Experience Cloud principal. Sin embargo, cuando se inicia sesión en AEP, solo debe ser visible la organización compartida.
 
@@ -73,15 +78,15 @@ Enviar [solicitud de asistencia](https://adobeexchangeec.zendesk.com/hc/es-es/re
 
 ## Navegación por la IU de AEP
 
-Vea el [vídeo de introducción](https://docs.adobe.com/content/help/es-ES/platform-learn/tutorials/intro-to-platform/interface-tour.html) de la interfaz de usuario de AEP
+Vea el [vídeo de introducción](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html) de la interfaz de usuario de AEP
 
 Hay 12 áreas principales dentro de la interfaz de usuario de AEP a las que se puede navegar mediante el panel izquierdo. Sin embargo, las secciones más importantes para este tipo de integración son Esquemas, Conjuntos de datos y Perfiles.
 
 * Inicio: la pantalla de aterrizaje
 
-   * Sugiere algunas actividades de introducción
-   * Proporciona algunos vínculos al contenido de aprendizaje
-   * Proporciona una vista de panel para algunos de los objetos AEP principales, como Esquemas, Conjuntos de datos y Perfiles
+  * Sugiere algunas actividades de introducción
+  * Proporciona algunos vínculos al contenido de aprendizaje
+  * Proporciona una vista de panel para algunos de los objetos AEP principales, como Esquemas, Conjuntos de datos y Perfiles
 
 * Flujos de trabajo: inicie flujos de trabajo comunes para introducir datos en AEP
 * Conexiones/fuentes: administrar las fuentes de datos que llegan a AEP

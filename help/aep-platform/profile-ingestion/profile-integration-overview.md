@@ -1,20 +1,21 @@
 ---
 title: Información general sobre la Guía de integración de acceso e ingesta de perfiles [!DNL Platform]
-description: Obtenga información acerca de la integración de  [!DNL Experience Platform] ingesta de perfiles y acceso.
+description: Obtenga información acerca de la integración para la ingesta y acceso al perfil [!DNL Experience Platform].
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
 TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Insights
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '493'
 ht-degree: 1%
-
 ---
-
 # Guía de integración: ingesta de perfiles y acceso de [!DNL Experience Platform]
 
 Los socios deben utilizar esta guía de integración para ayudarles a crear la funcionalidad de entrada y salida con Adobe [!DNL Experience Platform] (AEP). Existen API para la ingesta por lotes, la transmisión por secuencias y el acceso al perfil unificado (salida).
@@ -33,7 +34,7 @@ La próxima vez que un cliente llame al centro de llamadas, primero recibirá un
 
 ## Recursos generales
 
-* [Documentación del producto](https://docs.adobe.com/content/help/es-ES/experience-platform/landing/documentation/overview.html) de AEP.
+* [Documentación del producto](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html) de AEP.
 * AEP [Extensibilidad](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
 
 ## ¿Preguntas o comentarios?
