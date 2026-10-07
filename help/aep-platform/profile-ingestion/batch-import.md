@@ -49,7 +49,7 @@ Para todas las llamadas de este tutorial, utilice las carpetas de llamadas de Po
 
 ## Crear un lote
 
-En este tutorial utilizaremos JSON como formato. Encontrará más ejemplos de formato en la guía para desarrolladores de [](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
+En este tutorial utilizaremos JSON como formato. Encontrará más ejemplos de formato en la guía para desarrolladores de [&#128279;](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
 Cree un lote utilizando JSON como formato de entrada (asegúrese de incluir un ID de conjunto de datos y de que los datos se ajusten al esquema XDM vinculado al conjunto de datos):
 
 ```json
