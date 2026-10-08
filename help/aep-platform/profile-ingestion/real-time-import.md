@@ -5,13 +5,12 @@ exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: CX Enterprise
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 4%
-
 ---
-
 # Transmitir datos a AEP
 
 Adobe [!DNL Experience Platform] permite que los eventos de perfil y experiencia se transmitan y estén disponibles en tiempo casi real. Todos los datos enviados a AEP a través de streaming se mantienen en el lago de datos. Los datos se pueden transmitir a conjuntos de datos existentes o a conjuntos de datos completamente nuevos mediante API o mediante Adobe Launch.
